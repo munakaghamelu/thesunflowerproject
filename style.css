@@ -7,15 +7,18 @@
 
 body {
   height: 100vh;
-  background: #fff; /* Changed from black (#000) to white (#fff) */
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   position: relative;
+  flex-direction: column;
 }
 
 .text {
-  color: #000; /* Changed from white (#fff) to black (#000) */
+  color: #000;
   font-size: 110px;
-  text-align: center;
-  margin-top: 18%;
 }
 
 div {
