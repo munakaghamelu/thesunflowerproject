@@ -37,7 +37,7 @@ function App() {
           autoPlay
         />
         <div className="overlay-text">
-          <p>AN EXHIBITION LIKE NOTHING YOU'VE EVER EXPERIENCED</p>
+          <p>WHERE ART MEETS HOPE.</p>
           <a href="#page2" className="cta-button" onClick={handleLearnMoreClick}>LEARN MORE</a>
         </div>
       </section>
