@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.41ec0204.css",
-    "main.js": "/static/js/main.cbe1ffbe.js",
-    "static/js/453.ca785237.chunk.js": "/static/js/453.ca785237.chunk.js",
-    "index.html": "/index.html",
-    "main.41ec0204.css.map": "/static/css/main.41ec0204.css.map",
-    "main.cbe1ffbe.js.map": "/static/js/main.cbe1ffbe.js.map",
-    "453.ca785237.chunk.js.map": "/static/js/453.ca785237.chunk.js.map"
+    "main.css": "/thesunflowerproject-1/static/css/main.41ec0204.css",
+    "main.js": "/thesunflowerproject-1/static/js/main.3d019237.js",
+    "static/js/453.ca785237.chunk.js": "/thesunflowerproject-1/static/js/453.ca785237.chunk.js",
+    "index.html": "/thesunflowerproject-1/index.html",
+    "main.41ec0204.css.map": "/thesunflowerproject-1/static/css/main.41ec0204.css.map",
+    "main.3d019237.js.map": "/thesunflowerproject-1/static/js/main.3d019237.js.map",
+    "453.ca785237.chunk.js.map": "/thesunflowerproject-1/static/js/453.ca785237.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ec0204.css",
-    "static/js/main.cbe1ffbe.js"
+    "static/js/main.3d019237.js"
   ]
 }
