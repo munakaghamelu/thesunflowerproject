@@ -6,36 +6,32 @@ function App() {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      const maxScroll = window.innerHeight;
-      const scrollFraction = Math.min(scrollTop / maxScroll, 1);
-
-      if (videoRef.current) {
-        const duration = videoRef.current.duration;
-        videoRef.current.currentTime = duration * scrollFraction;
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    if (videoRef.current) {
+      videoRef.current.play();
+    }
   }, []);
-  
   
   return (
     <div className="app">
       <section className="section video-section">
-        <video 
-          ref={videoRef} 
+        <div className="overlay-header">
+          <h1>
+            <span>THE</span>
+            <span>SUNFLOWER</span>
+            <span>PROJECT</span>
+          </h1>
+        </div>
+        <video
+          ref={videoRef}
           className="background-video"
-          src="/sunflower_animation.mp4" 
-          autoPlay 
-          muted 
-          loop 
+          src="/sunflower_animation.mp4"
+          muted
+          playsInline
+          loop
+          autoPlay
         />
         <div className="overlay-text">
-          <h1>The Sunflower Project</h1>
-          <p>Scroll down to play the video</p>
+          <p>Welcome to The Sunflower Project</p>
         </div>
       </section>
 
