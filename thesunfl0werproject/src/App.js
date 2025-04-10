@@ -46,6 +46,10 @@ function App() {
         <div className="page2-content">
           <div className="page2-image">
             <img src="/muna.png" alt="Profile" />
+            <div className="image-caption">
+              <p>@bymuna.ko</p>
+              <p>Portrait Artist Of The Year, 2022</p>
+            </div>
           </div>
           <div className="page2-text">
             {/* <h1>About The Project</h1> */}
@@ -57,7 +61,7 @@ function App() {
               will culminate in a charitable showcase 
               where all artworks will be raffled, raising 
               funds for Black Minds Matter and The Sutton Trust. 
-              These organisations reflect key parts of Muna’s 
+              These organisations reflect key parts of Muna's 
               story—from her early dreams of educational 
               access to the importance of mental health 
               in the Black community. 
