@@ -4,12 +4,18 @@ import './App.css';
 
 function App() {
   const videoRef = useRef(null);
+  const page2Ref = useRef(null);
 
   useEffect(() => {
     if (videoRef.current) {
       videoRef.current.play();
     }
   }, []);
+
+  const handleLearnMoreClick = (e) => {
+    e.preventDefault();
+    page2Ref.current?.scrollIntoView({ behavior: 'smooth' });
+  };
   
   return (
     <div className="app">
@@ -31,11 +37,12 @@ function App() {
           autoPlay
         />
         <div className="overlay-text">
-          <p>Welcome to The Sunflower Project</p>
+          <p>AN EXHIBITION LIKE NOTHING YOU'VE EVER EXPERIENCED</p>
+          <a href="#page2" className="cta-button" onClick={handleLearnMoreClick}>LEARN MORE</a>
         </div>
       </section>
 
-      <section className="section page2">
+      <section ref={page2Ref} id="page2" className="section page2">
         <h1>Page 2</h1>
         <p>This is the second section.</p>
       </section>
