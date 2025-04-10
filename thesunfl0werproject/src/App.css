@@ -1,42 +1,66 @@
-/* App.css */
+/* Reset & Layout */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 html, body {
   height: 100%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #86B5D3; /* Blue background */
-  color: white;
   overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #86B5D3;
 }
-
 .app {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
   height: 100vh;
 }
 
+/* Section Styles */
 .section {
   height: 100vh;
-  width: 100%;
   scroll-snap-align: start;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  position: relative;
+  color: white;
   text-align: center;
+  padding: 2rem;
 }
 
-.section h1 {
-  font-size: clamp(2rem, 6vw, 4rem); /* Responsive font size */
-  margin-bottom: 1rem;
+/* Video Section */
+.video-section {
+  background: black;
+  position: relative;
+  overflow: hidden;
 }
-
-.section p {
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 0;
+}
+.overlay-text {
+  position: relative;
+  z-index: 1;
+}
+.overlay-text h1 {
+  font-size: clamp(2rem, 6vw, 4rem);
+}
+.overlay-text p {
   font-size: clamp(1rem, 3vw, 1.5rem);
-  max-width: 600px;
+}
+
+/* Page 2 */
+.page2 {
+  background-color: #86B5D3;
+}
+.page2 h1, .page2 p {
+  font-size: clamp(1.5rem, 4vw, 3rem);
 }
