@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/thesunflowerproject-1/static/css/main.41ec0204.css",
-    "main.js": "/thesunflowerproject-1/static/js/main.3d019237.js",
-    "static/js/453.ca785237.chunk.js": "/thesunflowerproject-1/static/js/453.ca785237.chunk.js",
-    "index.html": "/thesunflowerproject-1/index.html",
-    "main.41ec0204.css.map": "/thesunflowerproject-1/static/css/main.41ec0204.css.map",
-    "main.3d019237.js.map": "/thesunflowerproject-1/static/js/main.3d019237.js.map",
-    "453.ca785237.chunk.js.map": "/thesunflowerproject-1/static/js/453.ca785237.chunk.js.map"
+    "main.css": "/thesunflowerproject/static/css/main.41ec0204.css",
+    "main.js": "/thesunflowerproject/static/js/main.cd54641a.js",
+    "static/js/453.ca785237.chunk.js": "/thesunflowerproject/static/js/453.ca785237.chunk.js",
+    "index.html": "/thesunflowerproject/index.html",
+    "main.41ec0204.css.map": "/thesunflowerproject/static/css/main.41ec0204.css.map",
+    "main.cd54641a.js.map": "/thesunflowerproject/static/js/main.cd54641a.js.map",
+    "453.ca785237.chunk.js.map": "/thesunflowerproject/static/js/453.ca785237.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ec0204.css",
-    "static/js/main.3d019237.js"
+    "static/js/main.cd54641a.js"
   ]
 }
