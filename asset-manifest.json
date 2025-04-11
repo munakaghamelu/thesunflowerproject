@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/thesunflowerproject/static/css/main.41ec0204.css",
-    "main.js": "/thesunflowerproject/static/js/main.cd54641a.js",
+    "main.js": "/thesunflowerproject/static/js/main.4b0e8be1.js",
     "static/js/453.ca785237.chunk.js": "/thesunflowerproject/static/js/453.ca785237.chunk.js",
     "index.html": "/thesunflowerproject/index.html",
     "main.41ec0204.css.map": "/thesunflowerproject/static/css/main.41ec0204.css.map",
-    "main.cd54641a.js.map": "/thesunflowerproject/static/js/main.cd54641a.js.map",
+    "main.4b0e8be1.js.map": "/thesunflowerproject/static/js/main.4b0e8be1.js.map",
     "453.ca785237.chunk.js.map": "/thesunflowerproject/static/js/453.ca785237.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ec0204.css",
-    "static/js/main.cd54641a.js"
+    "static/js/main.4b0e8be1.js"
   ]
 }
