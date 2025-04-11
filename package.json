@@ -2,7 +2,7 @@
   "name": "thesunfl0werproject",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://munaaghamelu.github.io/thesunflowerproject-1",
+  "homepage": "https://munaaghamelu.github.io/thesunflowerproject",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
